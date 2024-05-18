@@ -1,0 +1,27 @@
+.contract-card {
+    background-color: var(--card-background-color); /* card background color */
+    color: var(--text-color); /* text color */
+    cursor: pointer; /* pointer cursor on hover */
+    transition: background 0.3s ease; /* smooth background transition */
+  }
+  
+  .contract-card:hover {
+    background: var(--button-hover-color); /* hover background color */
+  }
+  
+  .contract-card .MuiButton-root {
+    background-color: var(--button-background-color); /* button background color */
+    color: var(--button-text-color); /* button text color */
+    margin-top: 10px; /* margin above button */
+  }
+  
+  .contract-card .MuiButton-root:hover {
+    background-color: var(--button-hover-color); /* button hover background color */
+  }
+  
+  .card-header {
+    display: flex; /* flexbox layout */
+    justify-content: space-between; /* space between items */
+    align-items: center; /* center align items */
+  }
+  
