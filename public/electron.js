@@ -5,7 +5,7 @@ const remoteMain = require('@electron/remote/main'); // import remote module
 remoteMain.initialize(); // initialize remote module
 
 let mainWindow; // declare mainWindow variable
-
+// test push
 // function to create the browser window
 function createWindow() {
   mainWindow = new BrowserWindow({
